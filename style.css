@@ -1,0 +1,55 @@
+h1 {
+    color: rgb(0, 100, 255);
+    font-family: "Coiny";
+    font-size: 300%;
+}
+
+.coiny-regular {
+  font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background-color: aquamarine;
+    text-align: center;
+    background-image: url("");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.de%2FAttraction_Review-g58489-d12870028-Reviews-Picture_Lake-Glacier_Washington.html&psig=AOvVaw1ZZQ8loI0nBkQb58tgstUm&ust=1756284063867000&source=images&opi=89978449");
+}
+
+#box {
+    border: 10px solid;
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    position: relative;
+    top: 10vw;
+    left: 10vh;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+box.hover {
+    transform: scale(1.1);
+}
