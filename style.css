@@ -11,14 +11,14 @@ h1 {
 }
 
 body {
-    background-color: aquamarine;
+    background-color: #f0f8ff;
     text-align: center;
+    font-family: Arial, sans-serif;
     background-image: url("");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.de%2FAttraction_Review-g58489-d12870028-Reviews-Picture_Lake-Glacier_Washington.html&psig=AOvVaw1ZZQ8loI0nBkQb58tgstUm&ust=1756284063867000&source=images&opi=89978449");
 }
 
 #box {
@@ -29,27 +29,27 @@ body {
     position: relative;
     top: 10vw;
     left: 10vh;
-    text-align: center;
+    text-align: center
 }
 
 
 
 
 
+img {
+    width: 33vh;
+    margin: 15px;
+    transition: transform 0.4s;
+}
 
 
 
 
+#box:hover {
+    background-color: #17ad1f;
+}
 
 
-
-
-
-
-
-
-
-
-box.hover {
+img:hover {
     transform: scale(1.1);
 }
