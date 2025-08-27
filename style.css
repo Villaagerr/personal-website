@@ -26,10 +26,13 @@ body {
     height: 300px;
     width: 300px;
     background-color: aqua;
+    border-radius: 100%;
+    border-style: inset;
     position: relative;
     top: 10vw;
     left: 10vh;
-    text-align: center
+    text-align: center;
+    flex: auto center;
 }
 
 
@@ -52,4 +55,8 @@ img {
 
 img:hover {
     transform: scale(1.1);
+}
+
+button:hover {
+    transform: scale(1.05);
 }
